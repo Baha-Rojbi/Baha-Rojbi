@@ -1,16 +1,45 @@
 ### Hi there 👋
 
-<!--
-**Baha-Rojbi/Baha-Rojbi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+It s time to break from tutorial hell and start working on real projects
 
-Here are some ideas to get you started:
+```php
+<?php
+namespace BahaRojbi;
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class About extends Me
+{
+    public function getCurrentPosition(): array
+    {
+        return [
+            'education' => [
+                'university' => 'The Private Higher School of Engineering and Technology',
+                'grade' => 'First Year Masters Degree', 
+                'degree' => 'Software Architecture Engineering'         
+            ]
+        ];
+    }
+
+    public function getDailyKnowledge(): array
+    {
+        return [
+            Php::class,
+            Javascript::class,
+            Typescript::class,
+            Java::class,
+            Python::class,
+            Csharp::class,
+            Angular::class,
+            SpringBoot::class,
+            React::class,
+            NodeJs::class,
+            NextJs::class,
+            .Net::class,
+        ];
+    }
+
+    public function getFutureGoal(): string
+    {
+        return 'Land a first job.';
+    }
+}
+
