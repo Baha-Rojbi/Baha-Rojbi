@@ -1,45 +1,46 @@
-### Hi there 👋
+# Hi there 👋
 
-It s time to break from tutorial hell and start working on real projects
+It's time to break from tutorial hell and start working on real projects!
 
-```php
-<?php
-namespace BahaRojbi;
-
-class About extends Me
-{
-    public function getCurrentPosition(): array
-    {
-        return [
-            'education' => [
-                'university' => 'The Private Higher School of Engineering and Technology',
-                'grade' => 'First Year Masters Degree', 
-                'degree' => 'Software Architecture Engineering'         
-            ]
-        ];
+```typescript
+namespace BahaRojbi {
+  export class About extends Me {
+    getCurrentPosition(): Record<string, any> {
+      return {
+        education: {
+          university: 'The Private Higher School of Engineering and Technology',
+          grade: 'Third Year Masters Degree',
+          degree: 'Software Architecture Engineering',
+        },
+        currentJob: {
+          position: 'Part-time Software Engineer',
+          company: 'CrossRealms International',
+        },
+      };
     }
 
-    public function getDailyKnowledge(): array
-    {
-        return [
-            Php::class,
-            Javascript::class,
-            Typescript::class,
-            Java::class,
-            Python::class,
-            Csharp::class,
-            Angular::class,
-            SpringBoot::class,
-            React::class,
-            NodeJs::class,
-            NextJs::class,
-            .Net::class,
-        ];
+    getDailyKnowledge(): Array<string> {
+      return [
+        'PHP',
+        'JavaScript',
+        'TypeScript',
+        'Java',
+        'Python',
+        'C#',
+        'React',
+        'Angular',
+        'Spring Boot',
+        'Node.js',
+        'Next.js',
+        '.NET',
+        'FastAPI',
+        'Kubernetes',
+        'Docker',
+      ];
     }
 
-    public function getFutureGoal(): string
-    {
-        return 'Land a first job.';
+    getFutureGoal(): string {
+      return 'Advance to a senior-level software engineer, focusing on automation and back-end development';
     }
+  }
 }
-
