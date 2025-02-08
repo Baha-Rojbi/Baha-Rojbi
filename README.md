@@ -9,11 +9,11 @@ namespace BahaRojbi {
       return {
         education: {
           university: 'The Private Higher School of Engineering and Technology',
-          grade: 'Third Year Masters Degree',
+          grade: 'Final Year Masters Degree',
           degree: 'Software Architecture Engineering',
         },
         currentJob: {
-          position: 'Part-time Software Engineer',
+          position: 'Junior Software Engineer',
           company: 'CrossRealms International',
         },
       };
@@ -21,9 +21,9 @@ namespace BahaRojbi {
 
     getDailyKnowledge(): Array<string> {
       return [
-        'PHP',
-        'JavaScript',
         'TypeScript',
+        'C++',
+        'PHP',
         'Java',
         'Python',
         'C#',
@@ -36,6 +36,7 @@ namespace BahaRojbi {
         'FastAPI',
         'Kubernetes',
         'Docker',
+        'Groovy',
       ];
     }
 
