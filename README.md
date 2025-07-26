@@ -13,8 +13,8 @@ namespace BahaRojbi {
           degree: 'Software Architecture Engineering',
         },
         currentJob: {
-          position: 'Junior Software Engineer',
-          company: 'CrossRealms International',
+          position: 'R&D Software Engineer | Automation & CI/CD for Medium Voltage Drives',
+          company: 'ABB Switzerland',
         },
       };
     }
