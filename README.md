@@ -21,6 +21,10 @@ namespace BahaRojbi {
 
     getDailyKnowledge(): Array<string> {
       return [
+        'Ansible'
+        'CI/CD'
+        'Hardware In the Loop'
+        'Medium Volatage Drives'
         'TypeScript',
         'C++',
         'PHP',
